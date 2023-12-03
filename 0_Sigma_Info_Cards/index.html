@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(255, 223, 181);
+            margin: auto;
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .card {
+            margin: 30px;
+            padding: 0px 0px 10px 0px;
+            background-color: white;
+            border-radius: 20px;
+            width: 330px;
+            height: 550px;
+            box-shadow: 2px 2px 15px 0px rgb(0, 0, 0);
+     
+        }
+
+        .image {
+            padding: 7px;
+        }
+
+        .image img {
+            border-radius: 20px;
+            height: 250px;
+            width: 316px;
+            object-fit: cover;
+            object-position: 50% 45%;
+        }
+
+        .capsules {
+            padding: 0px 25px 0px 25px;
+        }
+
+        .capsules span {
+            position: relative;
+            top: 10px;
+            border: 1px solid rgb(177, 177, 177);
+            border-radius: 15px;
+            padding: 2px 10px;
+            font-size: 12px;
+            color: grey;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+
+        }
+
+        .content {
+            padding: 25px 20px 20px 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+
+        }
+
+        .content p {
+            padding: 10px 0px 0px 0px;
+            font-size: 14px;
+            color: grey;
+
+        }
+
+        .button {
+            text-align: center;
+            padding: 0px 0px 0px 0px;
+
+        }
+
+        .button button {
+            padding: 10px 15px;
+            border: 0px;
+            border-radius: 30px;
+            background-color: rgb(165, 218, 255);
+            color: rgb(0, 128, 255);
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            box-shadow: 2px 2px 1px 0px rgb(0, 132, 255);
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="card.jpg" alt="Travel">
+        </div>
+        <div class="capsules">
+            <span style="margin-right: 10px;">Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Sahil Sonaiya</h2>
+
+            <p> Raahon mein Bhatakata hua Musaaphir,<br>
+                Duniya ke Rangon mein<br>
+                Ranga hua Mann,<br>
+                Har Kadam par Naya Najaara,<br>
+                Jeene ka har Pal<br>
+                Ek Sukhaanubhav.
+
+                <!--Wanderer of horizons wide, footsteps echo, worlds collide. In twilight's glow or morning's grace, seeker of the unknown space. Tales inscribed in dusty trails, a nomad's heart, adventure sails -->
+            </p>
+
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="card2.jpg" alt="Travel">
+        </div>
+        <div class="capsules">
+            <span style="margin-right: 10px;">Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Sahil Sonaiya</h2>
+
+            <p>
+                Wanderer of Horizons wide,<br>
+                Footsteps echo, Worlds collide.<br> 
+                In Twilight's Glow or Morning's Grace,<br>
+                Seeker of the Unknown Space.
+                Tales Inscribed in Dusty trails,<br>
+                A Nomad's heart, Adventure sails.
+            </p>
+
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
